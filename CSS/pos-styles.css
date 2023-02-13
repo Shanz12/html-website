@@ -1,0 +1,78 @@
+div{
+    height: 100px;
+    width: 100px;
+}
+/* relative positioning */
+/**
+.red{
+    background-color: red;
+    display: inline-block; 
+    position: relative;
+    left: 200px;
+   
+}
+.blue{
+    background-color: blue;  
+    display: inline-block; 
+    position: relative;
+    right: 100px;
+}
+.yellow{
+    background-color: yellow;
+    display: inline-block; 
+    position: relative;
+    right: 100px;
+    margin-left: 0;
+   
+}
+**/
+
+/* absolute positioning-1*/
+/**
+body{
+    margin: 0;
+}
+.red{
+    background-color: red;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    
+}
+.blue{
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.yellow{
+    background-color: yellow;
+    position: absolute;
+    
+}
+**/
+/* absolute positioning-2*/
+body{
+    margin: 0;
+}
+.container{
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+    position: relative; /*important*/
+}
+.red{
+    background-color: red;
+    position: absolute;
+    right: 0;
+}
+.yellow{
+    background-color: yellow;
+    position: fixed;
+    left: 0;
+}
+.blue{
+    background-color: blue;
+    position: absolute;
+    left: 100px;
+}
